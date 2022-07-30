@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+
+#flex-container{
+    height: 100vh;
+    display: flex;
+}
+
+#sidebar-image{
+    width: 30vw;
+    background-image: url("./images/background-picture.avif");
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+
+#sidebar-sign-up{
+    
+}
