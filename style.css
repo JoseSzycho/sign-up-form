@@ -1,5 +1,11 @@
+@font-face{
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
 body{
     margin: 0px;
+    background-color: rgb(240, 240, 240);
 }
 
 #flex-container{
@@ -8,14 +14,61 @@ body{
 }
 
 #sidebar-image{
-    width: 30vw;
     background-image: url("./images/background-picture.avif");
+    width: 45vw;
     background-size: cover;
     background-position: center;
-   
-    
+    position: relative;
+}
+
+#sidebar-logo-container{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    display: flex;
+    align-items: center;
+}
+
+#sidebar-logo-background{
+    position: absolute;
+    background-color: black;
+    background-position: center;
+    width: 100%;
+    height: 15vh;
+    opacity: 40%;
+
+}
+
+#logo-container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#logo{
+    background-image: url("./images/odin-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 12vh;
+    width: 100px;
+}
+
+#logo-text{
+    font-family: Norse-Bold;
+    font-size: 5vw;
+    color: white;
 }
 
 #sidebar-sign-up{
+    margin-left: 40px;
     
+}
+
+#text-area{
+    margin-top: 18vh;
+    margin-right: 20vw;
+    font-size: 1.9rem;
+    font-weight: 800;
 }
