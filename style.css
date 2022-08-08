@@ -2,4 +2,93 @@
     font-family: Norse-Bold;
     src: url(./fonts/Norse-Bold.otf);
 }
+body{
+    display: flex;
+    margin: 0px;
+}
+#sidebar{
+    flex-basis: 70vw;
+    height: 100vh;
+    background-image: url("./images/background-picture.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
 
+#sidebar-logo{
+    flex-basis: 40vw;  
+    height: 25vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-logo{
+    font-family: Norse-Bold;
+    color: white;
+    font-size: 10rem;
+}
+
+img{
+    height: 20vh;
+}
+
+#form-body{
+    background-color: rgba(242, 244, 247, 0.356);
+}
+
+p{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+#upper-section, #middle-section{
+    padding-left: 3vw;
+}
+
+#upper-section{
+    flex-basis: 60vw;
+    padding-top: 20vh;
+    padding-right: 10vw;
+}
+
+#middle-section{
+    padding-top: 0.5vh;
+    background-color: white;
+    box-shadow: 7px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
+.input{
+    padding: 0.7vw 0vw;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+#inputs{
+    display: flex;
+    gap: 4vw;
+ }
+
+ input{
+    padding: 0.3rem;
+    font-weight: 900;
+ }
+
+ button{
+    width: 13vw;
+    height: 3rem;
+    background-color: rgba(18, 109, 0, 0.836);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+ }
+
+ #create-button{
+    position: relative;
+    top: 10vh;
+ }
