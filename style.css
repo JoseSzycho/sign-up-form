@@ -92,3 +92,8 @@ p{
     position: relative;
     top: 10vh;
  }
+
+ #log-text{
+    color: rgba(18, 109, 0, 1);
+    font-weight: 500;
+ }
